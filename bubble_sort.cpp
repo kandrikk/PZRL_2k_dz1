@@ -24,7 +24,7 @@ int main()
     int n;
     std:: cout << "Количество элементов массива : ";
     std::cin >> n;
-    int *arr{new int[n]{}};
+    int *arr = new int [n];
     std:: cout << "Введите элементы массива : ";
     for (int i = 0; i < n; i++)
     {   
